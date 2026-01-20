@@ -1,0 +1,21 @@
+{
+  "name": "zygokit",
+  "version": "1.0.0",
+  "description": "forge/ ├─ package.json ├─ bin/ │  └─ forge.js          # CLI entrypoint ├─ src/ │  ├─ core/ │  │  ├─ prompt.js     # perguntas (UX) │  │  ├─ resolver.js   # valida combinações │  │  ├─ planner.js    # gera plano de arquivos │  │  └─ generator.js  # cria pastas + copia templates │  ├─ stacks/ │  │  └─ js-ts/ │  │     ├─ index.js   # mapa da stack JS/TS │  │     ├─ backend/ │  │     │  └─ nest/ │  │     ├─ frontend/ │  │     │  └─ next/ │  │     └─ fullstack/ │  │        └─ next/ │  ├─ templates/ │  │  └─ js-ts/ │  │     ├─ backend/nest/ │  │     ├─ frontend/next/ │  │     └─ fullstack/next/ │  └─ utils/ │     ├─ exec.js │     └─ fs.js └─ README.md",
+  "main": "index.js",
+  "bin": {
+    "zygokit": "bin/forge.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "fs-extra": "^11.3.3",
+    "inquirer": "^13.2.0"
+  }
+}
