@@ -36,7 +36,7 @@ cd zygokit
 npm install
 
 # Run the CLI
-npm run forge
+zygokit
 ```
 
 ---
@@ -48,7 +48,7 @@ npm run forge
 Simply run the CLI and follow the prompts:
 
 ```bash
-npm run forge
+zygokit
 ```
 
 You'll be guided through:
@@ -352,7 +352,7 @@ case "YourNewFramework":
 
 3. Test the generation:
 ```bash
-npm run forge
+zygokit
 ```
 
 ---
